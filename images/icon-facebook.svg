@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="16px" viewBox="0 0 9 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.6">
+        <g id="Desktop" transform="translate(-1068.000000, -3233.000000)" fill="#FFFFFF">
+            <g id="Footer" transform="translate(78.000000, 3039.000000)">
+                <g id="Group" transform="translate(135.000000, 56.000000)">
+                    <g id="Subscribe" transform="translate(800.000000, 0.818182)">
+                        <g id="Social-Icons" transform="translate(0.000000, 125.181818)">
+                            <g id="Facebook" transform="translate(40.000000, 0.000000)">
+                                <path d="M17.6676666,28 L17.6676666,20.6830487 L15,20.6830487 L15,17.8842149 L17.6683094,17.8842149 L17.6683094,15.7717618 C17.6683094,13.3394419 19.2560531,12 21.6055282,12 C22.7304478,12 23.7178059,12.0733028 24,12.1066222 L24,14.6855477 L22.3286908,14.6855477 C21.0507821,14.6855477 20.8116563,15.2453145 20.8116563,16.0716368 L20.8116563,17.8842149 L23.8695093,17.8842149 L23.472252,20.6830487 L20.8116563,20.6830487 L20.8116563,28 L17.6618813,28 L17.6676666,28 Z" id="icon-facebook"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

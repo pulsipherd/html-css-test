@@ -1,25 +1,44 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SeaMonster Prototype Because you can't do better than awesome! </title>
+    <meta name="description" content="">
+    <meta property="og:site_name" content="SeaMonster Studios design">
+    <meta property="og:url" content="https://www.seamonsterstudios.com">
+    <meta property="og:title" content="SeaMonsters">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Seamonsters build the best websites! Etc, etc, etc. Come to us for great design...">
+    <meta name="twitter:site" content="@seamonsterstudios">
+    <meta name="twitter:card" content="?">
+    <meta name="twitter:title" content="SeaMonsters">
+    <meta name="twitter:description" content="Seamonsters build the best websites! Etc, etc, etc. Come to us for great design...">
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
     <link rel="stylesheet" type="text/css" href="normalize.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,800" rel="stylesheet">  
   </head>
-  <header>
-    <nav>
-      <div class="company-name"><h3>SeaMonster Studios</h3></div>
-      <div class="menu">
-        <ul class="nav-links">
-          <li><h3><a href="company.html">Our Company</h3></a></li>
-          <li><h3><a href="about.html">About Us</h3></a></li>
-          <li><h3><a href="product.html">Product Info</h3></a></li>
-          <li><h3><a href="contact.html">Contact Us</h3></a></li>
-          <li class="button"><a href="button.html">Button</h3></a></li>
-        </ul>
-          <img class="hamburger" src="./images/icon-menu.svg"></li>
-      </div>
-    </nav>
-  </header>
   <body>
+    <header>
+      <nav>
+        <div class="company-name"><h1 class="company-name">SeaMonster Studios</h3></div>
+        <div class="menu">
+          <ul class="nav-links">
+            <li><h3><a href="/company.html">Our Company</h3></a></li>
+            <li><h3><a href="/about.html">About Us</h3></a></li>
+            <li><h3><a href="/product.html">Product Info</h3></a></li>
+            <li><h3><a href="/contact.html">Contact Us</h3></a></li>
+            <li class="button"><a href="/button.html">Button</h3></a></li>
+          </ul>
+        </div>
+        <a class="hamburger">
+          <svg height="12" viewBox="0 0 16 12" width="16" xmlns="http://www.w3.org/2000/svg">
+            <path d="m265 21.9992194h14c.552285 0 1-.4477153 1-1 0-.5522848-.447715-1-1-1h-14c-.552285 0-1 .4477152-1 1 0 .5522847.447715 1 1 1zm0-5h14c.552285 0 1-.4477153 1-1 0-.5522848-.447715-1-1-1h-14c-.552285 0-1 .4477152-1 1 0 .5522847.447715 1 1 1zm0-5h14c.552285 0 1-.4477153 1-1 0-.5522848-.447715-1.00000004-1-1.00000004h-14c-.552285 0-1 .44771524-1 1.00000004 0 .5522847.447715 1 1 1z"
+    fill="#6daba4" transform="translate(-264 -9.999219)"/></svg>        
+          </a>
+      </nav>
+    </header>
     <div class="marquee">
       <div class="logo-title">
         <img class="app-icon" src="./images/App-Icon.png" alt="[SeaMonster Logo]">
@@ -32,15 +51,15 @@
     </div>
     <div class="base"></div>
     <div class="boxes">
-      <div class="box">
-        <img src="" alt="">
+      <div class="box left">
+        <img src="./images/icon-clock.svg" alt="" class="clock">
         <header><p class="h1"><b>Left</b> side box</p></header>
-        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+        <p class="box-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
       </div>
       <div class="box">
-          <img src="" alt="">
+          <img src="./images/icon-lock.svg" alt="Clock icon" class="lock">
           <header><p class="h1"><b>Right</b> side box</p></header>
-          <p>Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula.</p>
+          <p class="box-text"> Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula.</p>
       </div>
     </div>
     <div class="right-burst-example">
@@ -48,16 +67,16 @@
         <header><p class="h1"><b>Left</b> side two-line heading</p></header>
         <p>Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor.</p>
       </div>
-      <img src="" alt="" class="right-burst">
+      <img src="./images/Window-2.png" alt="Example" class="right-burst">
     </div>
     <div class="sign-up">
-      <header><h1><b>Sign up</b> Integer posuere erat a aliquet.</h1></header>
+      <header><p class="h1"><b>Sign up</b> Integer posuere erat a aliquet.</p></header>
       <div class="newsletter-form">
         <input type="text" placeholder="Your Name">
         <input type="text" placeholder="Email Address">
-        <div class="button">Get Started</div>
+        <a href="signup.html" class="newsletter-form-button">Get Started</a>
+        <div class="disclosure">By clicking “Sign Up” button you agree to our <a href="terms-and-conditions.html">Terms of Use</a></div>
       </div>
-      <div class="disclosure">By clicking “Sign Up” button you agree to our <a href="terms-and-conditions.html">Terms of Use</a></div>
     </div>
   </body>
   <footer>

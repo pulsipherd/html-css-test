@@ -148,11 +148,6 @@ a:hover {
 	color: #F8F9FA;
 }
 
-
-.nav-links:hover {
-	color: #F8F9FA;
-}
-
 .company-name {
 	color: #F8F9FA;
 	/* font-size: 6.25vw; */
@@ -160,8 +155,6 @@ a:hover {
 	line-height: 27px;
 	font-weight: 800;
 }
-
-
 
 .hamburger svg {
 	display: block;
@@ -179,7 +172,7 @@ a:hover {
 
 .base {
 	width: 100vw;
-	height: 543px;
+	height: 255px;
 	background-color: #F8F9FA;
 }
 
@@ -202,13 +195,14 @@ a:hover {
 }
 
 .app-icon {
-	width: 39vw;
-	height: 39vw;
+	width: 80px;
+	height: 80px;
 }
 
 .boxes {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
@@ -250,11 +244,12 @@ a:hover {
 
 .right-burst-example {
 	margin: 64px 16px;
+	background-color: #F8F9FA;
 }
 
-.left-info {
+/* .left-info {
 
-}
+} */
 
 .right-burst {
 	width: 90vw;
@@ -282,6 +277,7 @@ input {
 }
 
 .newsletter-form-button {
+	box-sizing: border-box;
 	height: 50px;
 	width: 243px;
 	margin: 20px 38px;
@@ -341,6 +337,7 @@ input {
 
 .take-action {
 	text-align: center;
+	margin: 5px;
 }
 
 .take action ul {
@@ -388,24 +385,73 @@ input {
 	/* MEDIA QUERIES */
 
 /* mobile-landscape */
-@media (min-width: 520px) {
-nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	background-color: #BADDD9;
-	padding: 10px 30px;
+@media (min-width: 670px) {
+	
+	header li {
+		display: inline-block;
+		padding: 0 .5em;
+	}
+
+	.company-name {
+		font-size: 15;
+		letter-spacing: 1px;
+	}
+
+	.button {
+			padding: 14px 3px; 
+
+	}
+	
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		background-color: #BADDD9;
+		padding: 10px 30px;
+	}
+
+	.menu {
+		display: inline-block;
+		background-color: #BADDD9;
+		color: #7FB8B3;
+		font-family: "Nunito Sans";
+		font-size: 15px;
+		line-height: 20px;	
+	}
+
+	.hamburger {
+		display: none;
+	}
 }
 
-.menu {
-	background-color: #BADDD9;
-}
-}
-
-/* tablet */
+/* tablet or small laptop */
 @media (min-width: 768px) {
+	
+	.company-name {
+	color: #F8F9FA;
+	font-size: 20px;
+	line-height: 27px;
+	font-weight: 800;
+}
+	
+	.nav-links:hover {
+			color: #F8F9FA;
+	}
+
+	.button:hover {
+	filter: brightness(90%);
+	}
+	
+	.inverted-button:hover {
+		opacity: 0.9;
+	}
+
 	.marquee-content {
 		width: 288px;
+	}
+
+	.base {
+		height: 543px;
 	}
 
 	.box {
@@ -419,15 +465,91 @@ nav {
 }
 
 	.left {
-	border-right: 1px solid #E7E8EA;
+		padding-right: 150px;
+		border-right: 1px solid #E7E8EA;
 	}
+
+	.footer-top {
+		grid-template-columns: 320px 320px;
+	}
+
+	.copyright-line {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		text-align: right;
+		font-size: 11px;
+		line-height: 15px;
+		margin: 17px 135px;
+	}
+
 }	
+
+/* that awkward in-between size */
+@media (min-width: 960px) {
+	.base {
+		height: 650px;
+	}
+	
+	.hanging-page {
+		width: 970px;
+		height: auto;
+	}
+
+	.right-burst-example {
+		height: 860px;
+		width: 1440px;
+		padding-top: 135px;
+		background-color: #F8F9FA;
+		display: flex;
+	}
+
+	.left-info {
+		display: block;
+		float: left;
+		height: 100px;
+		width: 370px;
+		margin-right: 135px;		
+	}
+
+	.left-info p {
+		height: 100px;
+		width: 370px;
+		margin: 50px;	
+	}
+	
+	.right-burst {
+		position: relative;
+		display: block;
+		float: left;
+	}
+	.right-burst-image {
+		position: absolute;
+		height: 635px;
+		width: 970px;
+		align-self: auto;
+	}
+
+	.footer-top {
+		grid-template-columns: 300px 300px 300px;
+		grid-gap: 30px;
+	}
+}
 
 /* desktop */
 @media (min-width: 1224px) {
-	.marquee {
-		width: 100%;
-		height: 720;
-	}
 	
+	.left-info p {
+		margin: 135px;	
+	}
+
+	body {
+		max-width: 1440px;
+	}
+
+	.footer-top {
+		grid-template-columns: 300px 300px 300px 300px;
+		grid-gap: 25px;
+	}
+
 }

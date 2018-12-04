@@ -301,16 +301,16 @@ input {
 }
 
 .footer-top {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: center;
+	display: grid;
+	grid-template-columns: 320px;
+	column-gap: 5px;
+	justify-items: center;
 }
 
 .footer-link-column {
 	display: flex;
 	flex-direction: column;
-	/* align-items: center; */
+	justify-items: center;
 	text-align: center;
 	margin: 5px;
 	width: 380px;
@@ -334,7 +334,7 @@ input {
 }
 
 .icon-input {
-	background: url(images/icon-mail.svg) no-repeat scroll 11px 16px;
+	background: url(images/icon-mail.svg) no-repeat  11px 16px;
 	background-color: #F8F9FA;
 	padding-left:30px;
 }
@@ -343,9 +343,38 @@ input {
 	text-align: center;
 }
 
-.copyright-line {
-
+.take action ul {
+	margin-top: 20px;
 }
+
+.take-action li {
+	display: inline-block;
+	box-sizing: border-box;
+	height: 40px;
+	width: 40px;
+	padding: 10px;
+	border: 1px solid rgba(255,255,255,0.3);
+	background-color: rgba(248,249,250,0);
+}	
+
+.icon-left {
+	border-radius: 6px 0 0 6px;
+}
+
+.icon-right {
+	border-radius: 0 6px 6px 0;
+}
+
+
+.copyright-line {
+	margin: 20px;
+	border-top: solid 1px rgba(255, 255, 255, 0.3);
+	padding: 20px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 11px;
+	line-height: 28px;
+	}
 
 .company {
 

@@ -105,6 +105,12 @@ a {
 	text-decoration: none;
 }
 
+footer {
+	background-color: #6DABA4;
+	color: #FFF;
+
+}
+
 .menu {
 	background-color: #BADDD9;
 	display: none;
@@ -258,7 +264,7 @@ a:hover {
 input {
 	height: 50px;
 	width: 243px;
-	margin: 10px 38px 10px 41px;
+	margin: 0px 38px 15px 41px;	
 	padding: 14px 113px 13px 20px;
 	border: 1px solid #E7E8EA;
 	border-radius: 6px;
@@ -271,13 +277,16 @@ input {
 	text-align: center;
 }
 
+.newsletter-form-inputs {
+	margin: 10px;
+}
+
 .newsletter-form-button {
-	
 	height: 50px;
 	width: 243px;
-	margin: 10px 38px 10px 41px;
+	margin: 20px 38px;
 	color: #fff;
-	padding: 14px 70px 13px 70px;
+	padding: 14px 89px 13px 89px;
 	border-radius: 6px;
 	background-color: #6DABA4;
 }
@@ -288,18 +297,50 @@ input {
 	font-size: 11px;
 	line-height: 15px;
 	text-align: center;
+	margin-top: 30px;
 }
 
 .footer-top {
-
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
 }
 
 .footer-link-column {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	text-align: center;
+	margin: 5px;
+	width: 380px;
+}
 
+.footer-link-column li, a{
+	color: #FFFFFF;
+	font-family: "Nunito Sans";
+	font-size: 13px;
+	line-height: 18px;
+	text-align: center;
+}
+
+.footer-link-column h5{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 800;
+	letter-spacing: 0.54px;
+	line-height: 20px;
+	/* text-align: center; */
 }
 
 .icon-input {
+	background: url(images/icon-mail.svg) no-repeat scroll 11px 16px;
+	background-color: #F8F9FA;
+	padding-left:30px;
+}
 
+.take-action {
+	text-align: center;
 }
 
 .copyright-line {
@@ -317,6 +358,7 @@ input {
 
 	/* MEDIA QUERIES */
 
+/* mobile-landscape */
 @media (min-width: 520px) {
 nav {
 	display: flex;
@@ -331,6 +373,7 @@ nav {
 }
 }
 
+/* tablet */
 @media (min-width: 768px) {
 	.marquee-content {
 		width: 288px;
@@ -351,6 +394,7 @@ nav {
 	}
 }	
 
+/* desktop */
 @media (min-width: 1224px) {
 	.marquee {
 		width: 100%;

@@ -240,7 +240,7 @@ svg {
 	background-color: #F8F9FA;
 }
 
-.right-burst {
+.right-burst-image {
 	width: 90vw;
 	height: auto;
 }
@@ -255,7 +255,7 @@ input {
 
 
 .sign-up {
-	margin: 65px 19px 32px 19px;
+	/* margin: 65px 19px 32px 19px; */
 	text-align: center;
 }
 
@@ -264,14 +264,16 @@ input {
 }
 
 .newsletter-form-button {
-	box-sizing: border-box;
-	height: 50px;
-	width: 243px;
 	margin: 20px 38px;
-	color: #fff;
-	padding: 14px 89px 13px 89px;
+	padding: 14px 97px 13px 97px;
 	border-radius: 6px;
+	color: #fff;
 	background-color: #6DABA4;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 23px;
+	text-align: center;
 }
 
 .disclosure {

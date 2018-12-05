@@ -279,13 +279,26 @@ input {
 .newsletter-form-button {
 	box-sizing: border-box;
 	height: 50px;
-	width: 243px;
+	width: 245px;
 	margin: 20px 38px;
-	color: #fff;
 	padding: 14px 89px 13px 89px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	/* line-height: 23px; */
 	border-radius: 6px;
 	background-color: #6DABA4;
 }
+
+/* .newsletter-form-button {
+	margin: 20px 38px;
+	padding: 14px 97px 13px 97px;
+	border-radius: 6px;
+	color: #fff;
+	background-color: #6DABA4;
+	letter-spacing: 1px;
+	text-align: center;
+} */
 
 .disclosure {
 	color: #B9BDC3;
@@ -294,6 +307,12 @@ input {
 	line-height: 15px;
 	text-align: center;
 	margin-top: 30px;
+}
+
+.disclosure a {
+	font-size: 11px;
+	line-height: 15px;
+	color: #B9BDC3;
 }
 
 .footer-top {

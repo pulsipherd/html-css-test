@@ -65,11 +65,6 @@ p {
   line-height: 28px;
 }
 
-p .small {
-  font-size: 14px;
-  line-height: 24px;
-}
-
 .h1 {
 	font-size: 36px;
 	line-height: 54px;
@@ -116,7 +111,7 @@ footer {
 	display: none;
 }
 
-/* REUSABLE */
+/* SPECIFIC CLASSES*/
 
 .inverted-button {
 	display: inline-block;
@@ -136,7 +131,6 @@ footer {
 	color: #BADDD9;
 	}
 	
-	/* SPECIFIC CLASSES*/
 
 a, a:visited, a:active {
 	text-decoration: none;
@@ -150,13 +144,12 @@ a:hover {
 
 .company-name {
 	color: #F8F9FA;
-	/* font-size: 6.25vw; */
 	font-size: 20px;
 	line-height: 27px;
 	font-weight: 800;
 }
 
-.hamburger svg {
+svg {
 	display: block;
 	width: 16px;
 	height: auto;
@@ -247,10 +240,6 @@ a:hover {
 	background-color: #F8F9FA;
 }
 
-/* .left-info {
-
-} */
-
 .right-burst {
 	width: 90vw;
 	height: auto;
@@ -326,7 +315,6 @@ input {
 	font-weight: 800;
 	letter-spacing: 0.54px;
 	line-height: 20px;
-	/* text-align: center; */
 }
 
 .icon-input {
@@ -340,9 +328,9 @@ input {
 	margin: 5px;
 }
 
-.take action ul {
+/* .take action ul {
 	margin-top: 20px;
-}
+} */
 
 .take-action li {
 	display: inline-block;
@@ -399,7 +387,6 @@ input {
 
 	.button {
 			padding: 14px 3px; 
-
 	}
 	
 	nav {
@@ -453,7 +440,7 @@ input {
 	}
 
 	.marquee-content {
-		width: 288px;
+		width: 500px;
 	}
 
 	.base {
@@ -494,6 +481,11 @@ input {
 
 /* that awkward in-between size */
 @media (min-width: 960px) {
+	
+	.button {
+		padding: 14px 53px 13px 53px; 
+	}
+	
 	.base {
 		height: 650px;
 	}

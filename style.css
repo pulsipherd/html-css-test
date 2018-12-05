@@ -290,16 +290,6 @@ input {
 	background-color: #6DABA4;
 }
 
-/* .newsletter-form-button {
-	margin: 20px 38px;
-	padding: 14px 97px 13px 97px;
-	border-radius: 6px;
-	color: #fff;
-	background-color: #6DABA4;
-	letter-spacing: 1px;
-	text-align: center;
-} */
-
 .disclosure {
 	color: #B9BDC3;
 	font-family: "Nunito Sans";
@@ -359,10 +349,6 @@ input {
 	margin: 5px;
 }
 
-.take action ul {
-	margin-top: 20px;
-}
-
 .take-action li {
 	display: inline-block;
 	box-sizing: border-box;
@@ -391,15 +377,6 @@ input {
 	font-size: 11px;
 	line-height: 28px;
 	}
-
-.company {
-
-}
-
-.date {
-
-}
-
 
 	/* MEDIA QUERIES */
 
@@ -442,6 +419,10 @@ input {
 		display: none;
 	}
 
+	.marquee-content {
+		width: 555px;
+	}
+
 	.footer-top {
 		display: grid;
 		grid-template-columns: 320px 320px;
@@ -469,10 +450,6 @@ input {
 	
 	.inverted-button:hover {
 		opacity: 0.9;
-	}
-
-	.marquee-content {
-		width: 288px;
 	}
 
 	.base {
@@ -513,6 +490,11 @@ input {
 
 /* that awkward in-between size */
 @media (min-width: 960px) {
+
+	.button {
+	padding: 14px 53px 13px 53px; 
+	}
+
 	.base {
 		height: 650px;
 	}

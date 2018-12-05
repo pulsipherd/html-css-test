@@ -472,6 +472,7 @@ input {
 
 	.left {
 		padding-right: 150px;
+		border-bottom: none;
 		border-right: 1px solid #E7E8EA;
 	}
 

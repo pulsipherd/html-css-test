@@ -328,10 +328,6 @@ input {
 	margin: 5px;
 }
 
-/* .take action ul {
-	margin-top: 20px;
-} */
-
 .take-action li {
 	display: inline-block;
 	box-sizing: border-box;
@@ -361,16 +357,7 @@ input {
 	line-height: 28px;
 	}
 
-.company {
-
-}
-
-.date {
-
-}
-
-
-	/* MEDIA QUERIES */
+/* MEDIA QUERIES */
 
 /* mobile-landscape */
 @media (min-width: 670px) {

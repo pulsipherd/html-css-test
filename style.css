@@ -246,8 +246,6 @@ svg {
 }
 
 input {
-	height: 50px;
-	width: 243px;
 	margin: 0px 38px 15px 41px;	
 	padding: 14px 113px 13px 20px;
 	border: 1px solid #E7E8EA;
@@ -285,6 +283,14 @@ input {
 	margin-top: 30px;
 }
 
+.disclosure a {
+	color: #7FB8B3;
+	font-family: "Nunito Sans";
+	font-size: 11px;
+	line-height: 15px;
+	text-decoration: underline;
+}
+
 .footer-top {
 	display: grid;
 	grid-template-columns: 320px;
@@ -301,7 +307,7 @@ input {
 	width: 380px;
 }
 
-.footer-link-column li, a{
+.footer-link-column li,a{
 	color: #FFFFFF;
 	font-family: "Nunito Sans";
 	font-size: 13px;
@@ -519,6 +525,15 @@ input {
 	.footer-top {
 		grid-template-columns: 300px 300px 300px;
 	}
+
+	.newsletter-form-inputs {
+	margin: 10px 5px;
+	}
+
+	.newsletter-form-button {
+		margin: 10px 10px;
+		padding: 14px 20px 13px 20px;
+	}
 }
 
 /* desktop */
@@ -528,6 +543,14 @@ input {
 		margin: 135px;	
 	}
 
+	.newsletter-form-inputs {
+	margin: 10px;
+	}
+	
+	.newsletter-form-button {
+		padding: 14px 89px 13px 89px;
+	}
+	
 	.footer-top {
 		grid-template-columns: 200px 200px 200px 200px 360px;
 		margin: 0 135px;

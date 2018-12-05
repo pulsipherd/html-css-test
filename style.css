@@ -422,6 +422,12 @@ input {
 	.hamburger {
 		display: none;
 	}
+
+	.footer-top {
+		display: grid;
+		grid-template-columns: 320px 320px;
+		justify-content: space-around
+
 }
 
 /* tablet or small laptop */
@@ -532,7 +538,6 @@ input {
 
 	.footer-top {
 		grid-template-columns: 300px 300px 300px;
-		grid-gap: 30px;
 	}
 }
 
